@@ -6,7 +6,7 @@
 );
  
       wire [7:0] inData0, inData1, inData2, inData3;
-      wire [7:0] inMemory;
+      wire [7:0] inMemory [3:0];
       wire storeArr [3:0];
       
       demux dmux(
